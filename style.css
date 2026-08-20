@@ -121,3 +121,36 @@ button:active {
         margin: 5px 0;
     }
 }
+
+/* Student Information */
+#studentInfo {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 16px;
+
+    color: #ffffff;
+    background-color: #000000;
+
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 0 #000000;
+
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#studentInfo span:first-child {
+    color: #ffffff;
+}
+
+#studentInfo span:not(:first-child) {
+    color: #ffffff;
+}
