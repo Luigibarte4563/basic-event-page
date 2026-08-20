@@ -1,5 +1,5 @@
-let pageContainer = document.querySelector("#pageContainer");
-let mainHeading = document.querySelector("#mainHeading");
+const pageContainer = document.querySelector("#pageContainer");
+const mainHeading = document.querySelector("#mainHeading");
 let nameInput = document.querySelector("#nameInput");
 let greetingButton = document.querySelector("#greetingButton");
 let backgroundButton = document.querySelector("#backgroundButton");
