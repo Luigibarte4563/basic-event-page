@@ -18,7 +18,7 @@ body {
 }
 
 /* Main container */
-.pageContainer {
+#pageContainer {
     width: 500px;
     padding: 40px;
 
